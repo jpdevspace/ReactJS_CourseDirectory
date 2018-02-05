@@ -5,7 +5,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import About from './About';
-
+import Courses from './Courses';
+import Teachers from './Teachers';
 
 class App extends Component {
   render() {
@@ -14,7 +15,9 @@ class App extends Component {
         <div className="container">
           <Header />
           <Route exact path="/" component={Home} /> 
-          <Route path="/about" component={About} />
+          <Route path="/about" render={ () => <About title='About' /> } />
+          <Route path="/teachers" component={Teachers} />
+          <Route path="/courses" component={Courses} />
         </div>
       </BrowserRouter>
     );

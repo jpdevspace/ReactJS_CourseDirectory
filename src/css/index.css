@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background: #5fcf80;
+  background: #daae00;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -121,7 +121,7 @@ header {
 .main-nav a:hover,
 .main-nav .active {
   color: #fff;
-  background: #3b80d1;
+  background: #3bc2d1;
 }
 
 /* COURSE NAV -------- */

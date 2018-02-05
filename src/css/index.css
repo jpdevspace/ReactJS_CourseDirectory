@@ -141,9 +141,11 @@ header {
   transition: .2s;
 }
 .course-nav a:hover,
-.course-nav a.active {
+.course-nav a.active,
+.course-nav a.mySuperCustomeActiveClass {
   color: #fff;
   background: #39add1;
+
 }
 
 /* ICONS -------- */
